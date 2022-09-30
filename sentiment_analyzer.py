@@ -4,11 +4,10 @@ from textblob import TextBlob
 import speech_recognition as sr
 import os
 
-data = pd.read_csv('Dummy Audios.csv', delimiter=',', names=['data_id', 'text'])
-df = pd.DataFrame(data, columns=['data_id', 'text'])
+df = pd.DataFrame([], columns=['data_id', 'text'])
 
 os.getcwd()
-path = "C:/Users/ab16216/Documents/sd_audiofiles"
+path = "../Audio Files"
 wav_list = os.listdir(path)
 
 r = sr.Recognizer()
