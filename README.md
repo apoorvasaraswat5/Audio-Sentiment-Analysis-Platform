@@ -26,4 +26,4 @@ Python – Anaconda, Jupyter, SpeechRecognition · PyPI
 GPU enabled machine
 
 ### How to run:
-- python final_code.py
+- python sentiment_analyzer.py
